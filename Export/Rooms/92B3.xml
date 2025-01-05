@@ -21,7 +21,7 @@
       <distance>8000</distance>
       <doorcode>
         <ScrollData>
-          <Change screen="13" scroll="01" />
+          <Change screen="10" scroll="01" />
         </ScrollData>
       </doorcode>
     </Door>

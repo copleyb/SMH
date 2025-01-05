@@ -27,7 +27,7 @@
       <direction>04</direction>
       <tilex>1</tilex>
       <tiley>6</tiley>
-      <screenx>01</screenx>
+      <screenx>00</screenx>
       <screeny>04</screeny>
       <distance>8000</distance>
       <doorcode>0000</doorcode>
