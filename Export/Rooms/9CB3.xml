@@ -22,7 +22,7 @@
       <doorcode>0000</doorcode>
     </Door>
     <Door>
-      <toroom area="00" index="2B" />
+      <toroom area="01" index="3B" />
       <bitflag>00</bitflag>
       <direction>04</direction>
       <tilex>1</tilex>
@@ -33,7 +33,7 @@
       <doorcode>0000</doorcode>
     </Door>
     <Door>
-      <toroom area="00" index="2A" />
+      <toroom area="01" index="3A" />
       <bitflag>00</bitflag>
       <direction>07</direction>
       <tilex>6</tilex>

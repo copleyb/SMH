@@ -1,7 +1,7 @@
 <Room>
   <Saves />
-  <index>20</index>
-  <area>00</area>
+  <index>38</index>
+  <area>01</area>
   <x>11</x>
   <y>08</y>
   <width>01</width>
@@ -11,7 +11,7 @@
   <specialGFX>00</specialGFX>
   <Doors>
     <Door>
-      <toroom area="00" index="2C" />
+      <toroom area="01" index="3C" />
       <bitflag>00</bitflag>
       <direction>05</direction>
       <tilex>E</tilex>

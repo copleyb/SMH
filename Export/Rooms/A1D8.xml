@@ -11,7 +11,7 @@
   <specialGFX>00</specialGFX>
   <Doors>
     <Door>
-      <toroom area="00" index="36" />
+      <toroom area="01" index="4B" />
       <bitflag>00</bitflag>
       <direction>04</direction>
       <tilex>1</tilex>
