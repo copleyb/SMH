@@ -22,14 +22,14 @@
       <doorcode>0000</doorcode>
     </Door>
     <Door>
-      <toroom area="02" index="4E" />
+      <toroom area="02" index="12" />
       <bitflag>00</bitflag>
-      <direction>00</direction>
-      <tilex>0</tilex>
-      <tiley>0</tiley>
-      <screenx>00</screenx>
+      <direction>06</direction>
+      <tilex>6</tilex>
+      <tiley>2</tiley>
+      <screenx>03</screenx>
       <screeny>00</screeny>
-      <distance>8000</distance>
+      <distance>0140</distance>
       <doorcode>0000</doorcode>
     </Door>
   </Doors>
@@ -86,7 +86,7 @@
         80FF 805F 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 805F 80FF
         80FF 805F 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 805F 80FF
         80FF 805F 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 805F 80FF
-        80FF 805F 00FF 00FF 00FF 805F 805F 805F 805F 805F 805F 00FF 00FF 00FF 805F 80FF
+        80FF 805F 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 805F 80FF
         80FF 805F 805F 805F 805F 805F C41D 541C 501C 501D 805F 805F 805F 805F 805F 80FF
         80FF 80FF 80FF 80FF 80FF 80FF 0443 0442 0042 0043 80FF 80FF 80FF 80FF 80FF 80FF
         80FF 80FF 80FF 80FF 80FF 80FF 9463 9462 9062 9063 80FF 80FF 80FF 80FF 80FF 80FF
@@ -227,7 +227,7 @@
       <layer2_type>Layer2</layer2_type>
       <layer2_xscroll>00</layer2_xscroll>
       <layer2_yscroll>00</layer2_yscroll>
-      <ScrollData const="0000" />
+      <ScrollData const="0001" />
       <roomvar>0000</roomvar>
       <FX2>0000</FX2>
       <PLMs />
