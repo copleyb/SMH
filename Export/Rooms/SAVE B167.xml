@@ -39,7 +39,7 @@
       <tilex>E</tilex>
       <tiley>6</tiley>
       <screenx>00</screenx>
-      <screeny>05</screeny>
+      <screeny>03</screeny>
       <distance>8000</distance>
       <doorcode>0000</doorcode>
     </Door>
