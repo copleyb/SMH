@@ -11,13 +11,13 @@
   <specialGFX>00</specialGFX>
   <Doors>
     <Door>
-      <toroom area="02" index="11" />
+      <toroom area="02" index="29" />
       <bitflag>00</bitflag>
       <direction>05</direction>
       <tilex>E</tilex>
       <tiley>6</tiley>
-      <screenx>00</screenx>
-      <screeny>03</screeny>
+      <screenx>02</screenx>
+      <screeny>00</screeny>
       <distance>8000</distance>
       <doorcode>0000</doorcode>
     </Door>
@@ -33,13 +33,13 @@
       <doorcode>0000</doorcode>
     </Door>
     <Door>
-      <toroom area="02" index="12" />
+      <toroom area="02" index="01" />
       <bitflag>00</bitflag>
-      <direction>00</direction>
-      <tilex>0</tilex>
-      <tiley>0</tiley>
+      <direction>04</direction>
+      <tilex>1</tilex>
+      <tiley>6</tiley>
       <screenx>00</screenx>
-      <screeny>00</screeny>
+      <screeny>02</screeny>
       <distance>8000</distance>
       <doorcode>0000</doorcode>
     </Door>
@@ -117,7 +117,7 @@
         810D 850D 850D 810D 850D 850D 9C63 9C62 9862 9863 810D 810D 810D 810D 810D 810D
         8D13 8D13 8D13 8D13 8D13 8D13 0C43 0C42 0842 0843 810D 8D13 8D13 8D13 8916 810D
         1103 1123 8108 8523 8123 8108 CC1D 5C1C 581C 581D 8108 8523 8123 8508 8114 810D
-        00FF 00FF 810A 00FF 00FF 0509 00FF 00FF 00FF 1122 1522 00FF 00FF 111F 891A 8916
+        00FF 00FF 810A 00FF 00FF 0509 00FF 00FF 00FF 00FF 00FF 00FF 00FF 111F 891A 8916
         00FF 00FF 010B 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 113F 8508 8114
         00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 8505 8114
         00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF C00C 9040
@@ -191,7 +191,7 @@
         00 00 00 00 00 00 01 01 01 01 00 00 00 00 00 00
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
         80 97 00 00 00 00 43 FF FE FD 00 00 00 00 00 00
-        00 00 00 00 00 00 00 00 00 96 D6 00 00 9C 00 00
+        00 00 00 00 00 00 00 00 00 00 00 00 00 9C 00 00
         00 00 00 00 00 00 00 00 00 00 00 00 00 9B 00 00
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 40 02
