@@ -17,11 +17,11 @@
       <tilex>1</tilex>
       <tiley>6</tiley>
       <screenx>00</screenx>
-      <screeny>03</screeny>
+      <screeny>01</screeny>
       <distance>8000</distance>
       <doorcode>
         <ScrollData>
-          <Change screen="18" scroll="01" />
+          <Change screen="07" scroll="01" />
         </ScrollData>
       </doorcode>
     </Door>
