@@ -16,7 +16,7 @@
       <direction>04</direction>
       <tilex>1</tilex>
       <tiley>6</tiley>
-      <screenx>0C</screenx>
+      <screenx>08</screenx>
       <screeny>00</screeny>
       <distance>8000</distance>
       <doorcode>0000</doorcode>
