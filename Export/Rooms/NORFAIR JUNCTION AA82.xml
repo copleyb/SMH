@@ -33,7 +33,6 @@
       <doorcode>
         <ScrollData>
           <Change screen="00" scroll="01" />
-          <Change screen="01" scroll="01" />
         </ScrollData>
       </doorcode>
     </Door>
