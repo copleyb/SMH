@@ -692,7 +692,7 @@
         </Layer2>
       </LevelData>
       <GFXset>0A</GFXset>
-      <music>0500</music>
+      <music>0000</music>
       <FX1s>
         <FX1 default="true">
           <surfacestart>02B4</surfacestart>
