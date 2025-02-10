@@ -32,13 +32,13 @@
   <specialGFX>00</specialGFX>
   <Doors>
     <Door>
-      <toroom area="02" index="35" />
+      <toroom area="02" index="61" />
       <bitflag>00</bitflag>
       <direction>05</direction>
       <tilex>E</tilex>
       <tiley>6</tiley>
       <screenx>02</screenx>
-      <screeny>02</screeny>
+      <screeny>00</screeny>
       <distance>8000</distance>
       <doorcode>
         <ScrollData>
@@ -51,13 +51,13 @@
       </doorcode>
     </Door>
     <Door>
-      <toroom area="02" index="4A" />
+      <toroom area="02" index="62" />
       <bitflag>00</bitflag>
       <direction>04</direction>
       <tilex>1</tilex>
       <tiley>6</tiley>
       <screenx>00</screenx>
-      <screeny>02</screeny>
+      <screeny>00</screeny>
       <distance>8000</distance>
       <doorcode>0000</doorcode>
     </Door>
@@ -79,7 +79,7 @@
         9C60 DC2C 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 81CB 81A5
         9C40 DC0C 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 805D 81CB 81A2
         8191 8191 8191 8191 8170 00FF 00FF 00FF 00FF 00FF 00FF 8570 8191 8191 8191 8191
-        81CB 81CB 85D2 85D1 8190 B591 5191 B191 5191 B191 5191 8590 81D1 81D2 81CB 81CB
+        81CB 81CB 85D2 85D1 8190 00FF 00FF 00FF 00FF 00FF 00FF 8590 81D1 81D2 81CB 81CB
         81CB 81CB 15D4 15D3 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 11D3 11D4 81CB 81CB
         89A4 8DA3 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF
         81A2 85A2 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF
@@ -106,7 +106,7 @@
           <Screen X="0" Y="1">
         81A2 85A2 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF
         81A3 85A4 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF
-        89A3 8DA3 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF
+        89A3 8DA3 00FF 00FF 00FF 00FF 00FF 81CB 81CB 00FF 00FF 00FF 00FF 00FF 00FF 00FF
         81A2 8DA2 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF
         81A4 85A2 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF
         81CB 81CB 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF
@@ -153,7 +153,7 @@
         00 FE 00 00 00 00 00 00 00 00 00 00 00 00 00 00
         00 FD 00 00 00 00 00 00 00 00 00 00 00 00 00 00
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
-        00 00 00 00 00 01 FF 01 FF 01 FF 00 00 00 00 00
+        00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
         00 00 C0 C2 00 00 00 00 00 00 00 00 82 80 00 00
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
@@ -334,7 +334,7 @@
         <PLM>
           <type>B703</type>
           <x>04</x>
-          <y>0C</y>
+          <y>01</y>
           <ScrollData>
             <Change screen="00" scroll="02" />
             <Change screen="01" scroll="02" />
@@ -344,20 +344,20 @@
         </PLM>
         <PLM>
           <type>B63B</type>
-          <x>05</x>
-          <y>0C</y>
+          <x>08</x>
+          <y>02</y>
           <arg>8000</arg>
         </PLM>
         <PLM>
           <type>B63B</type>
-          <x>06</x>
-          <y>0C</y>
+          <x>0A</x>
+          <y>02</y>
           <arg>8000</arg>
         </PLM>
         <PLM>
           <type>B63B</type>
-          <x>07</x>
-          <y>0C</y>
+          <x>09</x>
+          <y>02</y>
           <arg>8000</arg>
         </PLM>
         <PLM>
@@ -421,7 +421,7 @@
         9C60 DC2C 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 81CB 81A5
         9C40 DC0C 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 805D 81CB 81A2
         8191 8191 8191 8191 8170 00FF 00FF 00FF 00FF 00FF 00FF 8570 8191 8191 8191 8191
-        81CB 81CB 85D2 85D1 8190 B591 5191 B191 5191 B191 5191 8590 81D1 81D2 81CB 81CB
+        81CB 81CB 85D2 85D1 8190 00FF 00FF 00FF 00FF 00FF 00FF 8590 81D1 81D2 81CB 81CB
         81CB 81CB 15D4 15D3 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 11D3 11D4 81CB 81CB
         89A4 8DA3 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF
         81A2 85A2 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF
@@ -448,7 +448,7 @@
           <Screen X="0" Y="1">
         81A2 85A2 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF
         81A3 85A4 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF
-        89A3 8DA3 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF
+        89A3 8DA3 00FF 00FF 00FF 00FF 00FF 81CB 81CB 00FF 00FF 00FF 00FF 00FF 00FF 00FF
         81A2 8DA2 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF
         81A4 85A2 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF
         81CB 81CB 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF
@@ -495,7 +495,7 @@
         00 FE 00 00 00 00 00 00 00 00 00 00 00 00 00 00
         00 FD 00 00 00 00 00 00 00 00 00 00 00 00 00 00
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
-        00 00 00 00 00 01 FF 01 FF 01 FF 00 00 00 00 00
+        00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
         00 00 C0 C2 00 00 00 00 00 00 00 00 82 80 00 00
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
@@ -676,55 +676,13 @@
         <PLM>
           <type>B703</type>
           <x>04</x>
-          <y>0C</y>
+          <y>01</y>
           <ScrollData>
             <Change screen="00" scroll="02" />
             <Change screen="01" scroll="02" />
             <Change screen="02" scroll="01" />
             <Change screen="03" scroll="01" />
           </ScrollData>
-        </PLM>
-        <PLM>
-          <type>B63B</type>
-          <x>05</x>
-          <y>0C</y>
-          <arg>8000</arg>
-        </PLM>
-        <PLM>
-          <type>B63B</type>
-          <x>06</x>
-          <y>0C</y>
-          <arg>8000</arg>
-        </PLM>
-        <PLM>
-          <type>B63B</type>
-          <x>07</x>
-          <y>0C</y>
-          <arg>8000</arg>
-        </PLM>
-        <PLM>
-          <type>B63B</type>
-          <x>08</x>
-          <y>0C</y>
-          <arg>8000</arg>
-        </PLM>
-        <PLM>
-          <type>B63B</type>
-          <x>09</x>
-          <y>0C</y>
-          <arg>8000</arg>
-        </PLM>
-        <PLM>
-          <type>B63B</type>
-          <x>0A</x>
-          <y>0C</y>
-          <arg>8000</arg>
-        </PLM>
-        <PLM>
-          <type>B63B</type>
-          <x>0B</x>
-          <y>0C</y>
-          <arg>8000</arg>
         </PLM>
         <PLM>
           <type>EEDB</type>
