@@ -4,20 +4,20 @@
   <area>02</area>
   <x>1B</x>
   <y>10</y>
-  <width>03</width>
+  <width>04</width>
   <height>01</height>
   <upscroll>70</upscroll>
   <dnscroll>A0</dnscroll>
   <specialGFX>00</specialGFX>
   <Doors>
     <Door>
-      <toroom area="02" index="3B" />
+      <toroom area="02" index="41" />
       <bitflag>00</bitflag>
       <direction>05</direction>
       <tilex>E</tilex>
       <tiley>6</tiley>
-      <screenx>02</screenx>
-      <screeny>00</screeny>
+      <screenx>00</screenx>
+      <screeny>02</screeny>
       <distance>8000</distance>
       <doorcode>0000</doorcode>
     </Door>
@@ -32,10 +32,21 @@
       <distance>8000</distance>
       <doorcode>0000</doorcode>
     </Door>
+    <Door>
+      <toroom area="02" index="3E" />
+      <bitflag>00</bitflag>
+      <direction>06</direction>
+      <tilex>6</tilex>
+      <tiley>2</tiley>
+      <screenx>09</screenx>
+      <screeny>00</screeny>
+      <distance>0140</distance>
+      <doorcode>0000</doorcode>
+    </Door>
   </Doors>
   <States>
     <State condition="default">
-      <LevelData Width="3" Height="1">
+      <LevelData Width="4" Height="1">
         <Layer1>
           <Screen X="0" Y="0">
         810D 810D 810D 810D 810D 810D 810D 810D 810D 810D 810D 810D 810D 810D 810D 810D
@@ -48,12 +59,12 @@
         9460 D42C 00FF 00FF 00FF 00FF 00FF 00FF 00FF 02C0 00FF 00FF 00FF 00FF 02C0 00FF
         9C60 DC2C 00FF 00FF 00FF 00FF 00FF 00FF 00FF 02C0 00FF 00FF 00FF 00FF 02C0 00FF
         9C40 DC0C 00FF 00FF 00FF 00FF 00FF 00FF 00FF 02C0 00FF 00FF 00FF 00FF 02C0 00FF
-        8176 8176 8176 8176 8176 00FF 00FF 00FF 00FF 02C0 00FF 1193 1593 00FF 02C0 00FF
-        8176 8175 8175 8175 8176 00FF 00FF 00FF 8176 8176 8176 8176 8176 8176 8176 8176
-        8176 8175 8175 8175 8176 00FF 00FF 00FF 00FF 02C0 00FF 00FF 00FF 00FF 02C0 00FF
-        8176 8175 8175 8175 8176 00FF 00FF 00FF 00FF 02C0 00FF 00FF 00FF 00FF 02C0 00FF
-        8176 8175 8175 8175 8176 00FF 00FF 00FF 00FF 02C0 00FF 00FF 00FF 00FF 02C0 00FF
-        8176 8176 8176 8176 8176 1129 1129 1129 1129 12C0 1129 1129 1129 1129 12C0 1129
+        8176 8176 8176 8176 00FF 00FF 00FF 00FF 00FF 02C0 00FF 1193 1593 00FF 02C0 00FF
+        8176 8175 8175 8176 8176 8176 00FF 00FF 00FF 00FF 8176 8176 8176 8176 8176 8176
+        8176 8175 8175 8175 8175 8176 00FF 00FF 00FF 02C0 8176 00FF 00FF 00FF 02C0 00FF
+        8176 8175 8175 8175 8175 8176 C41D 541C 501C 501D 8176 00FF 00FF 00FF 02C0 00FF
+        8176 8175 8175 8175 8175 8176 0443 0442 0042 0043 8176 00FF 00FF 00FF 02C0 00FF
+        8176 8176 8176 8176 8176 8176 9463 9462 9062 9063 8176 1129 1129 1129 12C0 1129
       </Screen>
           <Screen X="1" Y="0">
         810D 810D 810D 810D 810D 810D 810D 810D 810D 810D 810D 810D 810D 810D 810D 810D
@@ -67,13 +78,31 @@
         00FF 00FF 00FF 00FF 00FF 02C0 00FF 00FF 00FF 00FF 02C0 00FF 00FF 00FF 00FF 00FF
         00FF 00FF 00FF 00FF 00FF 02C0 00FF 00FF 00FF 00FF 02C0 00FF 00FF 00FF 00FF 00FF
         00FF 00FF 00FF 00FF 00FF 02C0 00FF 1193 1593 00FF 02C0 00FF 00FF 00FF 00FF 00FF
-        00FF 00FF 00FF 00FF 8176 8176 8176 8176 8176 8176 8176 8176 00FF 00FF 00FF 00FF
+        00FF 00FF 00FF 00FF 8176 8176 8176 8176 8176 8176 8176 8176 00FF 00FF 00FF 8176
         00FF 00FF 00FF 00FF 00FF 02C0 00FF 00FF 00FF 00FF 02C0 00FF 00FF 00FF 00FF 00FF
         00FF 00FF 00FF 00FF 00FF 02C0 00FF 00FF 00FF 00FF 02C0 00FF 00FF 00FF 00FF 00FF
         00FF 00FF 00FF 00FF 00FF 02C0 00FF 00FF 00FF 00FF 02C0 00FF 00FF 00FF 00FF 00FF
         1129 1129 1129 1129 1129 12C0 1129 1129 1129 1129 12C0 1129 1129 1129 1129 1129
       </Screen>
           <Screen X="2" Y="0">
+        810D 810D 810D 810D 810D 810D 810D 810D 810D 810D 810D 810D 810D 810D 810D 810D
+        810D 810D 810D 810D 810D 810D 810D 810D 810D 810D 810D 810D 810D 810D 810D 810D
+        8175 8175 8175 8175 8176 8155 8176 8175 8175 8176 8155 8176 8175 8175 8175 8175
+        8176 8176 8176 8176 8176 8176 8176 8176 8176 8176 8176 8176 8176 8176 8176 8176
+        00FF 00FF 00FF 00FF 0156 8176 0156 0156 0556 0556 02C0 0556 00FF 00FF 00FF 00FF
+        00FF 00FF 00FF 00FF 00FF 02C0 00FF 00FF 00FF 00FF 02C0 00FF 00FF 00FF 00FF 00FF
+        00FF 00FF 00FF 00FF 00FF 02C0 00FF 00FF 00FF 00FF 02C0 00FF 00FF 00FF 00FF 00FF
+        00FF 00FF 00FF 00FF 00FF 02C0 00FF 00FF 00FF 00FF 02C0 00FF 00FF 00FF 00FF 00FF
+        00FF 00FF 00FF 00FF 00FF 02C0 00FF 00FF 00FF 00FF 02C0 00FF 00FF 00FF 00FF 00FF
+        00FF 00FF 00FF 00FF 00FF 02C0 00FF 00FF 00FF 00FF 02C0 00FF 00FF 00FF 00FF 00FF
+        00FF 00FF 00FF 00FF 00FF 02C0 00FF 1193 1593 00FF 02C0 00FF 00FF 00FF 00FF 00FF
+        8176 00FF 00FF 00FF 8176 8176 8176 8176 8176 8176 8176 8176 00FF 00FF 00FF 00FF
+        00FF 00FF 00FF 00FF 00FF 02C0 00FF 00FF 00FF 00FF 02C0 00FF 00FF 00FF 00FF 00FF
+        00FF 00FF 00FF 00FF 00FF 02C0 00FF 00FF 00FF 00FF 02C0 00FF 00FF 00FF 00FF 00FF
+        00FF 00FF 00FF 00FF 00FF 02C0 00FF 00FF 00FF 00FF 02C0 00FF 00FF 00FF 00FF 00FF
+        1129 1129 1129 1129 1129 12C0 1129 1129 1129 1129 12C0 1129 1129 1129 1129 1129
+      </Screen>
+          <Screen X="3" Y="0">
         810D 810D 810D 810D 810D 810D 810D 810D 810D 810D 810D 810D 810D 810D 810D 810D
         810D 810D 810D 810D 810D 810D 810D 810D 810D 810D 810D 810D 810D 810D 810D 810D
         8176 8155 8176 8175 8175 8176 8155 8176 8175 8175 8175 8175 8175 8175 8176 8175
@@ -107,9 +136,9 @@
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+        00 00 00 00 00 00 42 FF FE FD 00 00 00 00 00 00
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
-        00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
-        00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+        00 00 00 00 00 00 02 02 02 02 00 00 00 00 00 00
       </Screen>
           <Screen X="1" Y="0">
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
@@ -130,6 +159,24 @@
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
       </Screen>
           <Screen X="2" Y="0">
+        00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+        00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+        00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+        00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+        00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+        00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+        00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+        00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+        00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+        00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+        00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+        00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+        00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+        00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+        00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+        00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+      </Screen>
+          <Screen X="3" Y="0">
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
         00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
@@ -169,7 +216,7 @@
       <Enemies killcount="09">
         <Enemy>
           <ID>D33F</ID>
-          <X>0258</X>
+          <X>0358</X>
           <Y>0058</Y>
           <tilemap>0000</tilemap>
           <special>2000</special>
@@ -179,7 +226,7 @@
         </Enemy>
         <Enemy>
           <ID>D33F</ID>
-          <X>0258</X>
+          <X>0358</X>
           <Y>0058</Y>
           <tilemap>0006</tilemap>
           <special>2400</special>
@@ -189,7 +236,7 @@
         </Enemy>
         <Enemy>
           <ID>D33F</ID>
-          <X>0288</X>
+          <X>0388</X>
           <Y>0058</Y>
           <tilemap>0000</tilemap>
           <special>2000</special>
@@ -199,7 +246,7 @@
         </Enemy>
         <Enemy>
           <ID>D33F</ID>
-          <X>0288</X>
+          <X>0388</X>
           <Y>0058</Y>
           <tilemap>0006</tilemap>
           <special>2400</special>
@@ -309,7 +356,7 @@
         </Enemy>
         <Enemy>
           <ID>F1D3</ID>
-          <X>0240</X>
+          <X>0340</X>
           <Y>00B8</Y>
           <tilemap>0000</tilemap>
           <special>6900</special>
@@ -331,7 +378,7 @@
       <layer2_type>BGData</layer2_type>
       <layer2_xscroll>C0</layer2_xscroll>
       <layer2_yscroll>C0</layer2_yscroll>
-      <ScrollData const="0000" />
+      <ScrollData>02 01 01 01 </ScrollData>
       <roomvar>0000</roomvar>
       <FX2>0000</FX2>
       <PLMs />

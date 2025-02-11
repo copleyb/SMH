@@ -2,7 +2,7 @@
   <Saves>
     <SaveRoom>
       <saveindex>13</saveindex>
-      <indoor roomarea="02" roomindex="10" doorindex="00" />
+      <indoor roomarea="02" roomindex="0F" doorindex="00" />
       <unused>0000</unused>
       <unused>0000</unused>
       <screenx>0000</screenx>
