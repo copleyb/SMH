@@ -22,13 +22,13 @@
       <doorcode>0000</doorcode>
     </Door>
     <Door>
-      <toroom area="02" index="1A" />
+      <toroom area="02" index="23" />
       <bitflag>00</bitflag>
       <direction>04</direction>
       <tilex>1</tilex>
       <tiley>6</tiley>
       <screenx>00</screenx>
-      <screeny>01</screeny>
+      <screeny>00</screeny>
       <distance>8000</distance>
       <doorcode>0000</doorcode>
     </Door>
@@ -52,8 +52,8 @@
         8113 851A 810E 8106 00FF 00FF 00FF 00FF 8126 00FF 00FF 00FF 8127 00FF 8506 850E
         810D 8514 810E 8105 00FF 00FF 00FF 00FF 815F 00FF 00FF 00FF 815F 8506 850E 850E
         810D 8514 810E 8107 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 00FF 8505 850E 850E
-        810D 8514 810E 811C 811D 811D 00FF 00FF 00FF 00FF 00FF 811C 811D 8507 850E 850E
-        810D 8516 8113 8113 8113 8113 00FF 00FF 00FF 00FF 00FF 8113 8113 8113 8113 8113
+        810D 8514 810E 811C 811D 805F 00FF 00FF 00FF 00FF 00FF 805F 811D 8507 850E 850E
+        810D 805F 805F 805F 805F 805F 00FF 00FF 00FF 00FF 00FF 805F 805F 805F 805F 8113
       </Screen>
           <Screen X="1" Y="0">
         80FF 80FF 80FF 80FF 80FF 80FF 80FF 80FF 80FF 80FF 80FF 80FF 80FF 80FF 80FF 80FF

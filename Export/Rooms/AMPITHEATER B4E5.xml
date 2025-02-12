@@ -919,7 +919,7 @@
       <layer2_type>BGData</layer2_type>
       <layer2_xscroll>C0</layer2_xscroll>
       <layer2_yscroll>C0</layer2_yscroll>
-      <ScrollData>02 02 02 02 02 02 02 02 02 02 02 02 00 00 00 01 01 00 00 00 </ScrollData>
+      <ScrollData>02 02 02 02 02 02 02 02 02 02 02 02 00 00 00 01 02 00 00 00 </ScrollData>
       <roomvar>0000</roomvar>
       <FX2>0000</FX2>
       <PLMs />
