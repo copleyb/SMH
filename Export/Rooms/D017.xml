@@ -38,8 +38,8 @@
       <direction>07</direction>
       <tilex>6</tilex>
       <tiley>D</tiley>
-      <screenx>01</screenx>
-      <screeny>03</screeny>
+      <screenx>02</screenx>
+      <screeny>02</screeny>
       <distance>01C0</distance>
       <doorcode>0000</doorcode>
     </Door>
@@ -49,8 +49,8 @@
       <direction>07</direction>
       <tilex>6</tilex>
       <tiley>D</tiley>
-      <screenx>04</screenx>
-      <screeny>03</screeny>
+      <screenx>05</screenx>
+      <screeny>02</screeny>
       <distance>01C0</distance>
       <doorcode>0000</doorcode>
     </Door>
